@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    color: white;
+   
+}
+
+
+.nav{
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    color:white;
+
+}
+h2{
+    margin: 10px;
+}
+.main{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+   
+}
+input{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+btn{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+.search{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weather{
+    height: 200px;
+    width: 700px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.right{
+    font-weight:bold ;
+   
+}
+img{
+  height: 80px;
+  margin-top: 15px;
+}
+
+
+.cards p{
+    
+    font-size:30px ;
+    margin: auto;
+}
+.color{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 260px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+
+    
+}
+.cards{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+
+}
+.img{
+    height: 50px;
+
+}
